@@ -1,0 +1,8 @@
+streamlit>=1.38
+python-docx>=1.1
+requests>=2.31       # untuk llm_service_local.py (panggil Ollama lokal)
+pandas>=2.0          # untuk tabel dinamis daftar pegawai (Persetujuan Perjalanan Dinas)
+
+# Pilih SALAH SATU (atau lebih) sesuai LLM yang kamu pakai:
+anthropic>=0.40          # untuk llm_service.py (Claude API, berbayar)
+google-generativeai>=0.8 # untuk llm_service_gemini.py (Gemini API, gratis)
